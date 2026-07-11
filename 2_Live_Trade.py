@@ -7,7 +7,7 @@ import sys
 import os
 
 # Force Python to find config.py at the root level if a subpage runs independently
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))) 
 
 import config
 import os
