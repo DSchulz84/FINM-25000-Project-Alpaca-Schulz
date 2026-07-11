@@ -6,11 +6,17 @@ API keys connect the code to the Alpaca website which allows for the downloading
 
 
 my_trading_app/
+
 ├── .env
+
 ├── config.py         <-- (New file at root level)
+
 ├── st_app.py         <-- (Root execution file)
+
 └── pages/            <-- (Sub-folder for secondary views)
+
     ├── 1_📈_Backtest.py
+	
     └── 2_🏦_Live_Trade.py
 
 ## Setup instructions
