@@ -32,6 +32,3 @@ The risk management measures are simple but valuable. The volume of any one stoc
 
 ```bash
 pip install alpaca-py numpy pandas matplotlib backtesting python-dotenv streamlit
-
-
-
