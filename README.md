@@ -15,9 +15,9 @@ my_trading_app/
 
 └── pages/            <-- (Sub-folder for secondary views)
 
-    ├── 1_📈_Backtest.py
+├── 1_📈_Backtest.py
 	
-    └── 2_🏦_Live_Trade.py
+└── 2_🏦_Live_Trade.py
 
 ## Setup instructions
 Initialize API keys, chosen stock tickers, and specific strategy parameters in the config file, and install the required bash packages. Save files for st_app.py, 1_Backtest_py, and 2_Live_Trade_py, and run the app through streamlit.
