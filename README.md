@@ -1,8 +1,17 @@
 # FINM-25000-Project-Alpaca-Schulz
 The goal of this project was to code and execute a trading system in Alpaca. More specifically, the goal was to develop a strategy based on technical indicators which could connect with and exacute trades on the Alpaca trading website and in a backtesting mode based on historical data. Attached is a functional streamlit application which contains these modes and has full ability to test and trade on 15 pre-selected but changable stock tickers. 
 
-## Architectural description
+## Architectural description and diagram
 API keys connect the code to the Alpaca website which allows for the downloading of 5 years of histoical data, and comprehensive backtesting and performance evaluation of the strategy on the chosen stock tickers. The live paper trading requests live stock values and metrics, inputs them into the trading system, and either exacutes or holds off on trades, with full visability of current portfolio standing on the streamlit application. Both pages can be altered by use of slider controls which can change both the specific strategy technical indicator values and the risk managment measurements. 
+
+
+my_trading_app/
+├── .env
+├── config.py         <-- (New file at root level)
+├── st_app.py         <-- (Root execution file)
+└── pages/            <-- (Sub-folder for secondary views)
+    ├── 1_📈_Backtest.py
+    └── 2_🏦_Live_Trade.py
 
 ## Setup instructions
 Initialize API keys, chosen stock tickers, and specific strategy parameters in the config file, and install the required bash packages. Save files for st_app.py, 1_Backtest_py, and 2_Live_Trade_py, and run the app through streamlit.
